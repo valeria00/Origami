@@ -1,0 +1,509 @@
+body
+{
+  color: #6d6e70;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 60px;
+}
+
+main
+{
+  box-shadow: 0 5px 12px rgba(0,0,0,.3);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 900px;
+}
+
+header,section,footer
+{
+  display: block;
+  position: relative;
+}
+
+footer{
+  background-color: #00adee;
+  color: #ffffff ;
+  height: 33px;
+
+}
+
+header nav
+{
+  background-color: #00adee;
+  display: block;
+  height: 50px;
+  position: relative;
+}
+
+header #foto
+{
+  background-image: url(../imagenes/fondo-portada.jpg);
+  height: 280px;
+}
+
+header aside
+{
+  background-color: #ffffff;
+  bottom: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 224px;
+}
+
+header nav > a,
+header nav div
+{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header nav > a
+{
+  background-color: #ffffff;
+  background-image: url(../imagenes/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 196px;
+  text-indent: -9999px;
+  box-shadow: 0 5px 12px rgba(0,0,0,.3);
+  margin-right: 30px;
+}
+
+header nav div a
+{
+  color: #fff;
+  margin-right: 8px;
+  padding: 10px;
+  text-decoration: none;
+}
+header nav div a:hover
+{
+  background-color: #fff;
+  color: #404041;
+}
+header #foto span
+{
+  background-color: rgba(64,64,65,.6);
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-size: 42px;
+  left:0;
+  padding: 15px 0 15px 120px;
+  position: absolute;
+  right: 0;
+
+}
+
+header aside div a
+{
+  color: #6d6e70;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+
+}
+
+header aside div a span
+{
+  color: #00adee;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 7px;
+
+}
+
+header aside div a p
+{
+  display: block;
+  margin: 0;
+}
+
+header aside div a:hover
+{
+  background-color: #404041;
+  color: #fff;
+}
+
+header aside > a
+{ /*boton de ver mas*/
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+header aside div
+{
+  height:  298px;
+  overflow: auto;
+}
+
+.columna
+{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 30px;
+  position: relative;
+  width: 50%;
+
+}
+
+section
+{
+  overflow: auto;
+}
+
+.columna h1,
+.columna h2,
+.columna p
+{
+  display: block;
+  font-weight: normal;
+  padding-left: 40px;
+  position: relative;
+}
+
+.columna h1
+{
+  color: #404041;
+  font-size: 36px;
+  margin: 0 0 5px;
+}
+
+.columna p{
+  margin: 0 0 30px;
+}
+
+.columna h2{
+  color: #6d6e70;
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.bullet
+{
+  background-image: url(../imagenes/bullet.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+footer h4
+{
+  background-color: #404041;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px 35px 9px;
+  position: relative;
+}
+
+footer span
+{
+  color: #fff;
+  display: inline-block;
+  padding-left: 60px;
+  position: relative;
+
+}
+
+footer span a
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer span a:hover
+{
+  text-decoration: underline;
+}
+
+footer div
+{
+  background-color: #404041;
+  display: block;
+  height: 33px;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+footer div a
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  background-image: url(../imagenes/iconos-sociales.png);
+  background-repeat : no-repeat;
+  display: inline-block;
+  height: 33px;
+  overflow: hidden;
+  position: relative;
+  text-indent: 100px;
+  width: 33px;
+
+}
+
+footer div #facebook
+{
+  background-position: 11px 5px;
+}
+
+footer div #facebook:hover
+{
+  background-position: 11px -28px;
+}
+
+footer div #youtube
+{
+  background-position: -40px 5px;
+}
+
+footer div #youtube:hover
+{
+  background-position: -40px -28px;
+}
+
+footer div #twitter
+{
+  background-position: -89px 5px;
+}
+
+footer div #twitter:hover
+{
+  background-position: -89px -28px;
+}
+
+.columnap
+{
+  background-image: url(../imagenes/mosaico-fases.jpg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 692px;
+  position: relative;
+  width: 225px;
+
+}
+
+.columnap h2
+{
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  font-size: 36px;
+  font-weight: normal;
+  height: 40px;
+  padding: 3px;
+  position: relative;
+  text-align: center;
+  top: 195px;
+
+}
+
+.columnap div a
+{
+  color: #00adee;
+  display: block;
+  font-size: 18px;
+  margin-left: 36px;
+  margin-right: 36px;
+  padding: 12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 180px;
+}
+
+.columnap div a:hover
+{
+  background-color: #404041;
+  color: #fff;
+}
+
+.columnag
+{
+  border-left: 3px solid #00adee;
+  display: inline-block;
+  height: 692px;
+  position: absolute;
+  width: 675px;
+}
+
+.columnag h1
+{
+
+  color: #404041;
+  display: inline-block;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-left: 110px;
+}
+
+.columnag h2
+{
+  color: #00adee;
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: 110px;
+  margin-top: 0;
+}
+
+.columnag p
+{
+  color: #404041;
+  font-size: 14px;
+  line-height: 20pt;
+  margin-left: 110px;
+  margin-right: 31px;
+}
+
+.columnag span a
+{
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-left: 490px;
+  padding: 8px 17px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.columnag span a:hover
+{
+  background-color: #404041;
+  color: #fff;
+}
+
+#uno
+{
+  background-color: #00adee;
+  box-shadow: 0 5px 12px rgba(0,0,0,.3);
+  color: #fff;
+  display: block;
+  font-size: 58px;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 0 0 5px 0;
+  position: absolute;
+  text-align: center;
+  width: 60px;
+}
+
+.columnab
+{
+  background-image: url(../imagenes/mosaico-descargas.jpg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 692px;
+  position: relative;
+  width: 225px;
+
+}
+
+.columnab h2
+{
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  font-size: 36px;
+  font-weight: normal;
+  height: 40px;
+  padding: 3px;
+  position: relative;
+  text-align: center;
+  top: 195px;
+
+}
+
+.columnab p
+{
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  padding: 10px 30px;
+  margin-top: 180px;
+}
+
+.columnaw
+{
+  border-left: 3px solid #00adee;
+  display: inline-block;
+  height: 692px;
+  position: absolute;
+  width: 675px;
+}
+
+.columnaw h1
+{
+  color: #404041;
+  display: inline-block;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-left: 110px;
+}
+
+.columnaw h2
+{
+  color: #00adee;
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: 110px;
+  margin-top: 0;
+}
+
+.columnaw div p
+{
+  box-sizing: border-box;
+  color: #6d6e70;
+  font-size: 24px;
+  margin: 0 0 0 100px;
+  padding-bottom: 15px;
+  padding-left: 55px
+
+}
+
+#nube
+{
+  background-image: url(../imagenes/icono-descargar.png);
+  background-position:  left center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.columnaw div #nube
+{
+  background-position: 11px 5px;
+}
+
+.columnaw div #nube:hover
+{
+  background-position: 11px -40px;
+}
+
+.columnaw div p:hover
+{
+  color: #404041;
+}
+
+
+
